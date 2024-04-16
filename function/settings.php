@@ -4,10 +4,11 @@ class DatabaseConnection{
     public function __construct() {
         $this->dbConnection = $this->connect();
     }
-    protected $host = "172.207.210.201",
-            $username = "v7x6s5a_kehutanan",
-            $password = "Lol123!@#",
-            $database = "v7x6s5a_kehutanan",
+    // Put your server settings here
+    protected $host = "127.0.0.1",
+            $username = "root",
+            $password = "toor",
+            $database = "kehutanan",
             $connection;
 
     public function connect(){
